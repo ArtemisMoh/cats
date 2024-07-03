@@ -1,0 +1,227 @@
+@media (max-width:995px) {
+    .header-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #features{
+        background-color: currentColor;
+        position: static;
+         z-index: 0;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* type selectors */
+
+body{
+    font-family: vazirmatn;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: lalezar;
+}
+
+p{
+    color: #6e6d6d;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem !important;
+
+}
+
+.navbar-brand{
+    font-size: 2.3rem !important;
+    font-weight:bolder ;
+}
+
+.nav-item{
+    padding:0 18px !important;
+}
+
+.nav-link{
+    font-size: 1.3rem !important;
+    font-weight: lighter;
+}
+
+/* title */
+
+#title{
+    background-color: #ff4c68;
+    text-align: right;
+}
+
+.container-fluid{
+    padding: 3% 15% 9% 15%!important;
+
+
+}
+
+.title-h1{
+    color: white;
+    font-size: 3.5rem !important;
+    line-height: 1.5;
+}
+
+/* title img */
+
+.header-img{
+    width: 285px !important;
+    position: absolute;
+    right: 58%;
+    transform: rotate(-20deg);
+}
+
+/* buttons */
+
+.download-btn{
+    margin:5% 2% 5% 2%
+}
+
+/* features section */
+
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    
+
+}
+
+#features h3{
+    font-size: 2rem !important;
+    line-height: 1.5;
+}
+
+.icon{
+   font-size: 4.5rem;
+}
+
+.icon:hover{
+    color: #ff4c68 !important;
+}
+
+/* testemonial */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-h2{
+    font-family: vazirmatn;
+    font-size: 2.9rem !important;
+    font-weight: bolder;
+    line-height: 1.75;
+    margin:0 auto;
+    width:80%;
+}
+
+.testimonial-em{
+    text-shadow:1px 1px 5px  #ad3e3e;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    box-shadow:1px 2px 5px 1px #b15353;
+    margin: 40px 30px 10px 30px !important;
+    width: 12%;
+}
+
+.carousel-item{
+    padding:6% 13% !important;
+
+}
+
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#press img{ 
+    margin:30px 20px 50px 20px;
+    width: 15%;
+}
+
+/* pricing */
+
+#pricing{    
+    border-radius: 15px;
+    line-height: 1.5 !important;
+    padding: 120px 150px 150px 150px !important;
+    text-align: center;
+}
+
+#pricing .col-lg-4{
+    padding: 3% 2% !important;
+}
+
+#pricing .row{
+    margin-top: 50px !important;
+
+}
+
+.pricing-h2{
+    font-family: vazirmatn;
+    font-weight: 200 !important;
+    margin:5px 2px 5px 2px !important
+}
+
+.pricing-heading{
+    font-size: 3.75rem;
+    line-height: 1.75 !important;
+}
+
+.pricing-paragraph{
+    font-size: 1.15rem;
+}
+
+.strong{
+    font-weight: 500 !important;
+}
+
+.card-p{
+    margin-top: 30px !important;
+}
+
+/* cta */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    font-size: 3.7rem !important;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 55%;
+}
+/* footer */
+
+#footer{
+    color: #6e6d6d ;
+    direction: ltr;
+    padding: 7% 15% ;
+    text-align: center;
+}
+
+#footer i{
+    margin: 0 8px 30px 8px;
+}
+
+
